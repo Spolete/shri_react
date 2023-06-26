@@ -1,0 +1,26 @@
+.root {
+    position: sticky;
+    top: 108px;
+    min-height: calc(100vh - 124px);
+    padding: 24px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+}
+
+.sticky {
+    position: sticky;
+    top: 108px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.nameFilter {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}

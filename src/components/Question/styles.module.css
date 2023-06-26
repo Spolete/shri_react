@@ -1,0 +1,38 @@
+.root {
+    width: 100%;
+    padding: 24px 24px 0;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+.svg {
+    transition: transform 300ms;
+}
+
+.svgOpen {
+    transform: rotate(180deg);
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    transition: all 200ms ease-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.subtitleOpen {
+    padding-bottom: 24px;
+    max-height: 200px;
+}

@@ -1,0 +1,38 @@
+.root {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 84px;
+    padding: 0 32px;
+    background-color: #333;
+    color: #fff;
+    z-index: 2;
+}
+
+.name {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.right {
+    display: flex;
+}
+
+.tickets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    background-color: #FF5500;
+    margin-right: 10px;
+}
+
+.basket {
+    cursor: pointer;
+}

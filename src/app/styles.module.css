@@ -1,0 +1,39 @@
+.root {
+    display: flex;
+}
+
+.sidebarContent {
+    width: 25%;
+    padding-right: 23px;
+    min-width: 300px;
+}
+
+.right {
+    display: grid;
+    grid-gap: 16px;
+    width: 75%;
+    align-content: start;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    padding: 24px 32px;
+    flex: 1 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 216px);
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+}

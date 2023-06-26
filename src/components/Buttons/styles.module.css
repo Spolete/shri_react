@@ -1,0 +1,27 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    background-color: #FF5500;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.root:disabled {
+    background-color: #FFA375;
+    cursor: not-allowed;
+}
+
+.root:not(:disabled):hover,
+.root:not(:disabled):focus {
+    background-color: #E94E00;
+}
+
+.logo {
+    width: 9px;
+    height: 9px;
+}

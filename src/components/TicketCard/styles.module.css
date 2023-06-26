@@ -1,0 +1,62 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    height: 168px;
+    padding: 24px;
+}
+
+.left {
+    display: flex;
+}
+
+.image {
+    height: 100%;
+    border-radius: var(--border-radius);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 24px;
+}
+
+.name {
+    font-family: SF Pro Text, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.genre {
+    font-family: SF Pro Text, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+.right {
+    display: flex;
+    align-items: flex-start;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.count {
+    font-family: SF Pro Text, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 8px;
+}
+
+.close {
+    cursor: pointer;
+    margin-left: 28px;
+}

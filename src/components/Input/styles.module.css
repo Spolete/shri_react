@@ -1,0 +1,19 @@
+.root {
+    height: 40px;
+    width: 100%;
+    padding: 10px 16px 10px 16px;
+    border-radius: var(--border-radius);
+    border: 1px solid #E1E3E6;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.root:focus {
+    outline: none;
+    border: 1px solid #FF5500;
+}
+
+.root::placeholder {
+    color: #999FA6;
+}

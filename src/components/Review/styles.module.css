@@ -1,0 +1,47 @@
+.root {
+    display: flex;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: var(--border-radius);
+}
+
+.avatar {
+    border-radius: var(--border-radius);
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.right {
+    flex-grow: 1;
+    padding-left: 32px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.userName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rating {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ratingNumber {
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+.text {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,19 @@
+.title {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    margin-bottom: 8px;
+
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.questionGrid {
+    display: grid;
+    grid-gap: 16px;
+}

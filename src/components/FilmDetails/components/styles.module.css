@@ -1,0 +1,10 @@
+.info {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.bold {
+    font-weight: 600;
+}

@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 40px;
+    color: #fff;
+    background-color: #FF5500;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.root:hover,
+.root:focus {
+    background-color: #E94E00;
+}
+
+.isDenied {
+    width: 57px;
+    color: #FF5500;
+    border: 1px solid #FF5500;
+    background-color: inherit;
+}
+
+.root.isDenied:hover,
+.root.isDenied:focus {
+    background-color: inherit;
+    border: 1px solid #E94E00;
+    color: #E94E00;
+}
